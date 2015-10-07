@@ -11,12 +11,12 @@ int rx2,ry2;
 int hpx;
 void setup () {
   size(640,480) ;  // must use this size.
-  bg1=loadImage("bg1.png");
-  bg2=loadImage("bg2.png");
-  enemy=loadImage("enemy.png");
-  fighter=loadImage("fighter.png");
-  hp=loadImage("hp.png");
-  treasure=loadImage("treasure.png");
+  bg1=loadImage("img/bg1.png");
+  bg2=loadImage("img/bg2.png");
+  enemy=loadImage("img/enemy.png");
+  fighter=loadImage("img/fighter.png");
+  hp=loadImage("img/hp.png");
+  treasure=loadImage("img/treasure.png");
   rx1=floor(random(0,600));
   ry1=floor(random(0,440));
   rx2=floor(random(0,600));
